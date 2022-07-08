@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         LottieView(name: "proxima_app_splash", loopMode: .playOnce)
             .ignoresSafeArea()
-            .frame(width: 1000, height: .infinity, alignment: .center)
+            .frame(width: .infinity, height: .infinity, alignment: .center)
                     
     }
 }
