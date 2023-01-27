@@ -10,9 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         LottieView(name: "proxima_app_splash", loopMode: .playOnce)
-            .ignoresSafeArea()
-            .frame(width: .infinity, height: .infinity, alignment: .center)
-                    
+        .ignoresSafeArea()
+        .frame(width: .infinity, height: .infinity, alignment: .center)
     }
 }
 
